@@ -52,3 +52,5 @@ sysinfo.txt
 /ServerData/
 Assets/AddressableAssetsData/Android*
 Assets/AddressableAssetsData/iOS*
+
+/Assets/Plugins/Sirenix*

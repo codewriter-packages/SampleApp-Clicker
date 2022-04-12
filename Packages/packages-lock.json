@@ -1,5 +1,45 @@
 {
   "dependencies": {
+    "com.codewriter.stylecomponents": {
+      "version": "https://github.com/codewriter-packages/Style-Components.git#master",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2b56c2f6fd6a57e6d25775f5b33c5708638ac608"
+    },
+    "com.codewriter.view-binding": {
+      "version": "https://github.com/codewriter-packages/View-Binding.git#main",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7916b3e7c1f97ad14a01f8fe417e7e7790a5f84d"
+    },
+    "com.scellecs.morpeh": {
+      "version": "https://github.com/codewriter-packages/Morpeh-Core.git#2022-major-core",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "92786f25db61b4eeb49aad7853915077a9542321"
+    },
+    "com.unimob": {
+      "version": "https://github.com/codewriter-packages/UniMob.git#master",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "hash": "b908900f3c24c73fdf66d56de0ea49084e9b9ded"
+    },
+    "com.unimob.ui": {
+      "version": "https://github.com/codewriter-packages/UniMob.UI.git#master",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unimob": "2.0.0",
+        "com.unity.addressables": "1.6.2"
+      },
+      "hash": "9bd2cbf58ec000d30d22755ce9979094c233d808"
+    },
     "com.unity.2d.animation": {
       "version": "5.0.9",
       "depth": 0,
@@ -72,6 +112,18 @@
       "source": "builtin",
       "dependencies": {}
     },
+    "com.unity.addressables": {
+      "version": "1.6.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.scriptablebuildpipeline": "1.5.6",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.1",
       "depth": 0,
@@ -121,9 +173,23 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.10.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.nuget.newtonsoft-json": {
       "version": "2.0.0",
       "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.scriptablebuildpipeline": {
+      "version": "1.5.6",
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
