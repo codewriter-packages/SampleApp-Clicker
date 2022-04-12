@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.codewriter.morpeh-unimob-globals": {
+      "version": "https://github.com/codewriter-packages/Morpeh-UniMob-Globals.git#main",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "cd4fac5009eda7e81d884bb1a4be26f905333264"
+    },
     "com.codewriter.stylecomponents": {
       "version": "https://github.com/codewriter-packages/Style-Components.git#master",
       "depth": 0,
