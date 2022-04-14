@@ -19,6 +19,7 @@ namespace Code.UI.Widgets
             GlobalVariableString primaryStyle)
         {
             _primaryStyle = primaryStyle;
+
             View = view;
         }
 

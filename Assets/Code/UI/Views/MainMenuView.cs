@@ -19,7 +19,6 @@ namespace Code.UI.Views
             base.Awake();
 
             primaryStyle.Bind(this, () => State.PrimaryStyle);
-
             onPlayClick.Bind(this, () => State.Play());
         }
 

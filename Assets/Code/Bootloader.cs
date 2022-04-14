@@ -16,46 +16,29 @@ namespace Code
 {
     public class Bootloader : MonoBehaviour
     {
-        [SerializeField]
-        private ViewPanel rootViewPanel = default;
-
-        [SerializeField]
-        private GameObject persistentObjectHolder = default;
+        [SerializeField] private ViewPanel rootViewPanel = default;
+        [SerializeField] private GameObject persistentObjectHolder = default;
 
         [Header("Preloader")]
-        [SerializeField]
-        private GameObject preloaderObject = default;
-
-        [SerializeField]
-        private CanvasGroup preloaderCanvasGroup = default;
-
-        [SerializeField]
-        private float preloaderFadeTime = 0.4f;
+        [SerializeField] private GameObject preloaderObject = default;
+        [SerializeField] private CanvasGroup preloaderCanvasGroup = default;
+        [SerializeField] private float preloaderFadeTime = 0.4f;
 
         [Header("Views")]
-        [SerializeField]
-        private GameObject mainMenuView = default;
-
-        [SerializeField]
-        private GameObject gameMenuView = default;
+        [SerializeField] private GameObject mainMenuView = default;
+        [SerializeField] private GameObject gameMenuView = default;
 
         [Header("Systems")]
-        [SerializeField]
-        private GameSystem gameSystem = default;
+        [SerializeField] private GameSystem gameSystem = default;
 
         [Header("Variables")]
-        [SerializeField]
-        private GlobalVariableBool gameRunning = default;
+        [SerializeField] private GlobalVariableBool gameRunning = default;
 
-        [SerializeField]
-        private GlobalVariableFloat timeRemaining = default;
-
-        [SerializeField]
-        private GlobalVariableString primaryStyle = default;
+        [SerializeField] private GlobalVariableFloat timeRemaining = default;
+        [SerializeField] private GlobalVariableString primaryStyle = default;
 
         [Header("Events")]
-        [SerializeField]
-        private StartGameRequestedEvent startGameRequestedEvent = default;
+        [SerializeField] private StartGameRequestedEvent startGameRequestedEvent = default;
 
         private IEnumerator Start()
         {

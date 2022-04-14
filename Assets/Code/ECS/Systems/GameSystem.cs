@@ -8,12 +8,14 @@ namespace Code.ECS.Systems
     [CreateAssetMenu(menuName = "SampleApp-Clicker/Systems/Game System")]
     public class GameSystem : UpdateSystem
     {
+        [Header("Variables")]
         [SerializeField] private GlobalVariableBool gameRunning = default;
-
         [SerializeField] private GlobalVariableFloat remainingTime = default;
 
+        [Header("Events")]
         [SerializeField] private StartGameRequestedEvent startGameRequestedEvent = default;
 
+        [Header("Constants")]
         [SerializeField] private float gameDuration = 5;
 
         public override void OnAwake()

@@ -9,11 +9,8 @@ namespace Code.UI.Views
         [SerializeField] private ViewContext viewContext = default;
 
         [Header("Variables")]
-        [SerializeField]
-        private ViewVariableFloat timeRemaining = default;
-
-        [SerializeField]
-        private ViewVariableString primaryStyle = default;
+        [SerializeField] private ViewVariableFloat timeRemaining = default;
+        [SerializeField] private ViewVariableString primaryStyle = default;
 
         protected override void Awake()
         {
@@ -32,7 +29,6 @@ namespace Code.UI.Views
     public interface IGameMenuState : IViewState
     {
         string PrimaryStyle { get; }
-
         float GameTimeRemaining { get; }
     }
 }

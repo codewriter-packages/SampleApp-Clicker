@@ -31,10 +31,14 @@ namespace Code.UI.Widgets
             _gameRunning = gameRunning;
             _timeRemaining = timeRemaining;
             _startGameRequestedEvent = startGameRequestedEvent;
+
             View = view;
         }
 
         public override WidgetViewReference View { get; }
+        
+        [Atom] public string PrimaryStyle => _primaryStyle.Value;
+        [Atom] public float GameTimeRemaining => _timeRemaining.Value;
 
         public override async void InitState()
         {
@@ -47,9 +51,5 @@ namespace Code.UI.Widgets
 
             Widget.OnGameEnded?.Invoke();
         }
-
-        [Atom] public string PrimaryStyle => _primaryStyle.Value;
-
-        [Atom] public float GameTimeRemaining => _timeRemaining.Value;
     }
 }

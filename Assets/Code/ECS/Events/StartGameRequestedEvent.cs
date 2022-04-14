@@ -8,8 +8,6 @@ namespace Code.ECS.Events
     public class StartGameRequestedEvent : BaseGlobalEvent<StartGameRequestedEvent.Args>
     {
         [Serializable]
-        public struct Args
-        {
-        }
+        public struct Args { }
     }
 }
