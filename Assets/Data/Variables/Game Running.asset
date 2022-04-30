@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc77381b5777f5747a10bc6c2f273a1f, type: 3}
   m_Name: Game Running
   m_EditorClassIdentifier: 
-  internalEntityID: 0
   value: 0
-  defaultSerializedValue: 
   customKey: f827cfb0d4f24c47a75f50645018f1be
   AutoSave: 0

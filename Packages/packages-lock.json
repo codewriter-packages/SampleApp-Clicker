@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "cd4fac5009eda7e81d884bb1a4be26f905333264"
+      "hash": "599d4e9f420d40c3930ce1f9b79efabdf2c4a403"
     },
     "com.codewriter.stylecomponents": {
       "version": "https://github.com/codewriter-packages/Style-Components.git#master",
@@ -26,7 +26,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "92786f25db61b4eeb49aad7853915077a9542321"
+      "hash": "428cbc008b2f08f4e94bf1f57dd921ee85f45e3b"
     },
     "com.unimob": {
       "version": "https://github.com/codewriter-packages/UniMob.git#master",

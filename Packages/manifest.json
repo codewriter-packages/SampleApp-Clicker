@@ -1,11 +1,11 @@
 {
   "dependencies": {
+    "com.codewriter.morpeh-unimob-globals": "https://github.com/codewriter-packages/Morpeh-UniMob-Globals.git#main",
     "com.codewriter.stylecomponents": "https://github.com/codewriter-packages/Style-Components.git#master",
     "com.codewriter.view-binding": "https://github.com/codewriter-packages/View-Binding.git#main",
-    "com.codewriter.morpeh-unimob-globals": "https://github.com/codewriter-packages/Morpeh-UniMob-Globals.git#main",
+    "com.scellecs.morpeh": "https://github.com/codewriter-packages/Morpeh-Core.git#2022-major-core",
     "com.unimob": "https://github.com/codewriter-packages/UniMob.git#master",
     "com.unimob.ui": "https://github.com/codewriter-packages/UniMob.UI.git#master",
-    "com.scellecs.morpeh": "https://github.com/codewriter-packages/Morpeh-Core.git#2022-major-core",
     "com.unity.2d.animation": "5.0.9",
     "com.unity.2d.pixel-perfect": "4.0.1",
     "com.unity.2d.psdimporter": "4.1.2",

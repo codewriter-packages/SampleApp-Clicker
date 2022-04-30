@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 770e75b105724561a80a1ed57c56a7ab, type: 3}
   m_Name: Primary Style
   m_EditorClassIdentifier: 
-  internalEntityID: 0
   value: Orange
-  defaultSerializedValue: 
   customKey: 94c6f90342f948efb1d1fb4e91b26ddf
-  AutoSave: 0
+  AutoSave: 1

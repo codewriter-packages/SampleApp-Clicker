@@ -33,7 +33,6 @@ namespace Code
 
         [Header("Variables")]
         [SerializeField] private GlobalVariableBool gameRunning = default;
-
         [SerializeField] private GlobalVariableFloat timeRemaining = default;
         [SerializeField] private GlobalVariableString primaryStyle = default;
 
@@ -45,11 +44,8 @@ namespace Code
             DontDestroyOnLoad(persistentObjectHolder);
             DontDestroyOnLoad(gameObject);
 
-            var world = World.Default;
-            world.InitializeGlobals();
-
             yield return Initialize();
-            yield return RegisterSystems(world);
+            yield return RegisterSystems();
             yield return RegisterWidgetStates();
             yield return LoadMenuScene();
             yield return CreateUI();
@@ -69,8 +65,9 @@ namespace Code
             yield return SceneManager.LoadSceneAsync("Menu Scene");
         }
 
-        private IEnumerator RegisterSystems(World world)
+        private IEnumerator RegisterSystems()
         {
+            var world = World.Default;
             var group = world.CreateSystemsGroup();
 
             group.AddSystem(gameSystem);
